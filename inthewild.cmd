@@ -10,9 +10,9 @@
 
 : --------------:
 
+@echo off
 setlocal
 
-@echo off
 if "%~1"=="" goto :NoCVE
 set CVE=%~1
 
