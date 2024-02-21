@@ -22,5 +22,6 @@ set /p "CVE=Please Enter CVE in CVE-xxxx-yyyyy format: "
 
 :CVE
 docker run inthewild/inthewild reports %CVE%
+if "%~1"=="" pause
 
 endlocal
